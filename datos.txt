@@ -14,3 +14,8 @@ flask db upgrade              => ejecuta todas las migraciones pendientes en la 
 
 flask db downgrade            => ejecutara un revert de todas las migraciones que hemos creado hasta el momento NOTA: NO REALIZAR ESTO PORQUE SINO PERDEREMOS TODA LA INFORMACION DE LA BD
 flask db downgrade --tag ID_MIGRACION   => hace el revert PERO SOLAMENTE hasta la migracion que nosotros deseamosgit rm -rf.git
+
+
+
+
+https://marshmallow.readthedocs.io/en/stable/marshmallow.fields.html?highlight=fields#module-marshmallow.fields
